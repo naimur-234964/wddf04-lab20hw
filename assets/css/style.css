@@ -341,7 +341,7 @@ ul li {
 
 /* about-us start */
 #about-us {
-	/* height: 700px; */
+	/* margin-bottom: 50px; */
 }
 
 .about-us-image {}
@@ -374,7 +374,7 @@ ul li {
 .features-item {
 	height: 150px;
 	width: 150px;
-	background: rgba(179, 184, 187, 0.3);
+	background: rgb(239, 245, 249);
 	border-radius: 75px;
 	flex-direction: column;
 	align-items: center;
@@ -403,3 +403,77 @@ ul li {
 }
 
 /* about-us end */
+
+/* services start */
+#services {
+	margin-bottom: 100px;
+}
+
+#services .container {
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.service-title {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 40%;
+}
+
+#services .title-block {
+	/* height: 100px; */
+}
+
+.service-block {
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.service-item {
+	width: 350px;
+	height: 350px;
+	background: rgb(239, 245, 249);
+	border-radius: 10px;
+	margin: 10px 0;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.service-item-icon {
+	width: 150px;
+	height: 100px;
+	background: var(--brand-color);
+	border-radius: 75% 45%;
+	margin: 10px 0;
+	justify-content: center;
+	align-items: center;
+}
+
+.service-item-icon i {
+	color: var(--light-color);
+	font-size: 32px;
+	font-weight: 900;
+}
+.service-item h2 {
+	color: var(--dark-color);
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.service-item p {
+	color: var(--text-color);
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+/* services end */
